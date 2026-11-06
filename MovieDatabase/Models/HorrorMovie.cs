@@ -10,4 +10,9 @@ public class HorrorMovie : Movie
     {
         return "Horror";
     }
+
+    public override string ToString()
+    {
+        return $"{Title}\n\tRating:{MovieRating.Score:F1}\n\tID: {Id}";
+    }
 }
